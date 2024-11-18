@@ -1,16 +1,25 @@
-/* Réinitialisation */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
+html, body {
+    background-color: #f8f9fa; /* Fond uniforme pour le corps de la page */
+}
+
+body {
+    min-height: 100vh; /* S'assure que le fond couvre toute la hauteur de la fenêtre */
+    background-color: #c0c0c0; /* Couleur de fond uniforme */
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Styles pour le header et la navigation */
+
 header {
     background-color: #333;
     color: white;
@@ -19,13 +28,13 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
+    padding: 10px 20px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
 }
 
 .nav-list {
@@ -48,7 +57,7 @@ nav {
     color: #ffcc00;
 }
 
-/* Styles pour le menu hamburger */
+/* Menu hamburger */
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -65,14 +74,24 @@ nav {
 
 /* Section principale */
 main {
-    margin-top: 60px; /* Pour compenser la hauteur du header */
+    margin-top: 100px; /* Augmenter l'espacement pour la section Accueil sous le header */
+    width: 100%;
+    max-width: 1200px; /* Limiter la largeur */
     padding: 20px;
     line-height: 1.6;
+    background-color: #ffffff; /* Fond blanc uniforme */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ombre pour profondeur */
+    margin: 0 auto; /* Centrer horizontalement */
 }
 
 section {
     padding: 40px 20px;
     border-bottom: 1px solid #ccc;
+    background-color: #ffffff; /* Fond uniforme pour toutes les sections */
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05); /* Ombre légère pour chaque section */
+    margin-bottom: 20px;
 }
 
 h1, h2 {
