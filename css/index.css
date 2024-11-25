@@ -225,4 +225,5 @@ h2 {
 /* GIF du WIP avec les gilets jaune/orange bref */
 iframe{
     width: 100%;
+    align-items: center;
 }
