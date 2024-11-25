@@ -221,3 +221,8 @@ h2 {
 .arrow:hover {
     background-color: rgba(255, 204, 0, 0.9);
 }
+
+/* GIF du WIP avec les gilets jaune/orange bref */
+iframe{
+    width: 100%;
+}
