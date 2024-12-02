@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Numérique Hadrien Milo</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/timeline.css">
 </head>
 <body>
     <header>
@@ -44,18 +45,22 @@
         </section>
 
         <section id="Formations">
-            <h2>Mes formations</h2>
-            <article>
-                <h3>Depuis 2023</h3>
-                <p>BUT Informatique</p>
-                <p><a href="https://iut.univ-lille.fr/" target="_blank">IUT A de Lille, site de Villeneuve d'Ascq</a></p>
-            </article>
-            <article>
-                <h3>2021 - 2023</h3>
-                <p>BAC général</p>
-                <p>Lycée Marguerite de Flandre, Gondecourt</p>
-                <p>Spécialités : Physique-Chimie et NSI</p>
-            </article>
+
+            <div class="parcours">
+                <div class="container left">
+                  <div class="content">
+                    <h2>Depuis 2023</h2>
+                    <h3>BUT Informatique</h3>
+                    <p><a href="https://iut.univ-lille.fr/" target="_blank">IUT A de Lille, site de Villeneuve d'Ascq</a></p>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="content">
+                    <h2>2016</h2>
+                    <p>Lorem ipsum..</p>
+                  </div>
+                </div>
+              </div> 
         </section>
 
         <section id="Projets">
@@ -106,13 +111,54 @@
 
         <section id="Skills">
             <h2>Compétences</h2>
-            <ul>
-                <li>Programmation : Java, C, Python</li>
-                <li>Développement Web: HTML/CSS, mise en place d'un serveur Web (Apache Tomcat)</li>
-                <li>Base de données : Langage SQL, PostgreSQL, Microsoft Access avec ODBC, JDBC</li>
-                <li>Outils : Git, Linux (et systèmes basés Unix)</li>
-                <li>Divers: Cette section est susceptible de changer de contenu et de mise en forme</li>
-            </ul>
+            <div id="skill-disp">
+                <div class="skills-category">
+                    <h3>Programmation</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>C</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+            
+                <div class="skills-category">
+                    <h3>Développement Web</h3>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>Mise en place d'un serveur Web (Apache Tomcat)</li>
+                    </ul>
+                </div>
+            
+                <div class="skills-category">
+                    <h3>Systèmes</h3>
+                    <ul>
+                        <li>Linux (et systèmes basés Unix)</li>
+                    </ul>
+                </div>
+            
+                <div class="skills-category">
+                    <h3>Base de données</h3>
+                    <ul>
+                        <li>Langage SQL</li>
+                        <li>PostgreSQL</li>
+                        <li>Microsoft Access avec ODBC, JDBC</li>
+                    </ul>
+                </div>
+            
+                <div class="skills-category">
+                    <h3>Outils</h3>
+                    <ul>
+                        <li>Git</li>
+                    </ul>
+                </div>
+            
+                <div class="skills-category">
+                    <h3>Divers</h3>
+                    <ul>
+                        <li>Cette section est susceptible de changer de contenu et de mise en forme</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
         <section id="Contact">

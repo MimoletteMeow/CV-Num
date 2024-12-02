@@ -228,3 +228,58 @@ h2 {
 .arrow:hover {
     background-color: rgba(255, 204, 0, 0.9);
 }
+
+#skill-disp {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(4, 1fr); /* 4 colonnes égales */
+    grid-template-rows: auto; /* Les lignes s'ajustent automatiquement selon le nombre de compétences */
+}
+
+.skills-category {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Hauteur fixe pour chaque carré */
+    text-align: center;
+}
+
+.skills-category h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.skills-category ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.skills-category li {
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 1rem;
+}
+
+/* Responsive design : ajuster le nombre de colonnes selon la taille de l'écran */
+@media (max-width: 1024px) {
+    #skill-disp {
+        grid-template-columns: repeat(3, 1fr); /* 3 colonnes pour les tablettes */
+    }
+}
+
+@media (max-width: 768px) {
+    #skill-disp {
+        grid-template-columns: repeat(2, 1fr); /* 2 colonnes pour les petits écrans */
+    }
+}
+
+@media (max-width: 480px) {
+    #skill-disp {
+        grid-template-columns: 1fr; /* 1 colonne pour les très petits écrans */
+    }
+}
