@@ -39,11 +39,12 @@ header {
     padding: 10px 20px;
 }
 
+/*
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+}*/
 
 .nav-list {
     display: flex;
@@ -63,7 +64,7 @@ nav {
 
 .nav-list li a:hover {
     color: #ffcc00;
-}
+} 
 
 /* Menu hamburger */
 .menu-toggle {
