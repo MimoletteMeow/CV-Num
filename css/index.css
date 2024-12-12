@@ -281,3 +281,11 @@ h2 {
         grid-template-columns: 1fr; /* 1 colonne pour les très petits écrans */
     }
 }
+
+.comp{
+    max-width:5em;
+}
+
+.tchou{
+    max-width: 100%;
+}
