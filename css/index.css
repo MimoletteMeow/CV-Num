@@ -286,6 +286,11 @@ h2 {
     max-width:5em;
 }
 
-.tchou{
+
+.fimg img{
     max-width: 100%;
+}
+
+#Contact img{
+    max-width: 20%;
 }
