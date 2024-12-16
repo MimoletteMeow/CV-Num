@@ -82,7 +82,9 @@ nav {
 
 /* Section principale */
 main {
-    margin-top: 100px; /* Augmenter l'espacement pour la section Accueil sous le header */
+    margin: unset;
+    margin: 0 auto; /* Centrer horizontalement */
+    margin-top: 70px;
     width: 100%;
     max-width: 1200px; /* Limiter la largeur */
     padding: 20px;
@@ -90,7 +92,6 @@ main {
     background-color: #ffffff; /* Fond blanc uniforme */
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ombre pour profondeur */
-    margin: 0 auto; /* Centrer horizontalement */
 }
 
 main img{
@@ -269,25 +270,7 @@ h2 {
     font-size: 1rem;
 }
 
-/* Responsive design : ajuster le nombre de colonnes selon la taille de l'écran */
-@media (max-width: 1024px) {
-    #skill-disp {
-        grid-template-columns: repeat(3, 1fr); /* 3 colonnes pour les tablettes */
-    }
-}
-
-@media (max-width: 768px) {
-    #skill-disp {
-        grid-template-columns: repeat(2, 1fr); /* 2 colonnes pour les petits écrans */
-    }
-}
-
-@media (max-width: 480px) {
-    #skill-disp {
-        grid-template-columns: 1fr; /* 1 colonne pour les très petits écrans */
-    }
-}
-
-.contenu{
-    margin-top: 75px;
+img{
+    max-width: 70%;
+    width: 4em;
 }
