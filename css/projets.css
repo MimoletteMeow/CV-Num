@@ -18,7 +18,7 @@ body {
     align-items: flex-start;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(../bg2.jpg);
+    background-image: url(../bg3.jpg);
     background-size:cover; 
     background-position: center center; /* Centre l'image */
     background-attachment: fixed; /* Fait en sorte que le fond reste fixe lors du défilement */
@@ -286,4 +286,8 @@ h2 {
     #skill-disp {
         grid-template-columns: 1fr; /* 1 colonne pour les très petits écrans */
     }
+}
+
+.contenu{
+    margin-top: 75px;
 }

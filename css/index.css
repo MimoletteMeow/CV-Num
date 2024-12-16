@@ -1,5 +1,4 @@
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -10,6 +9,7 @@ html, body {
 }
 
 body {
+    margin-top: auto;
     min-height: 100vh; /* S'assure que le fond couvre toute la hauteur de la fenêtre */
     background-color: #c0c0c0; /* Couleur de fond uniforme */
     background-attachment: fixed;
@@ -26,7 +26,9 @@ body {
 
 }
 
-
+main{
+    margin-top: 76px;
+}
 
 header {
     position: fixed;
@@ -80,7 +82,8 @@ nav {
 
 /* Section principale */
 main {
-    margin-top: 100px; /* Augmenter l'espacement pour la section Accueil sous le header */
+    margin: unset;
+    margin-top: 76px;
     width: 100%;
     max-width: 1200px; /* Limiter la largeur */
     padding: 20px;
