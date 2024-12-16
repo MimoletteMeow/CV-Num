@@ -16,6 +16,7 @@ function updateArrows() {
 }
 
 function scrollProjects(direction) {
+    console.log(direction);
     const containerWidth = sectionProjets.parentElement.offsetWidth;
     const projectWidth = sectionProjets.firstElementChild.offsetWidth + parseInt(getComputedStyle(sectionProjets).gap);
 
